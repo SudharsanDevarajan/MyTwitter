@@ -7,18 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A097A0F2892425700122083 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A097A0E2892425700122083 /* LoginView.swift */; };
+		0A097A112892426200122083 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A097A102892426200122083 /* SignUpView.swift */; };
+		0A097A1328924BD000122083 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A097A1228924BD000122083 /* CustomTextField.swift */; };
+		0A097A1528924BDC00122083 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A097A1428924BDC00122083 /* RoundedShape.swift */; };
+		0A097A1828924D7400122083 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A097A1728924D7400122083 /* AuthHeaderView.swift */; };
+		0A097A1A2892519D00122083 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A097A192892519D00122083 /* AuthViewModel.swift */; };
+		0A097A1D2892D80A00122083 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 0A097A1C2892D80A00122083 /* AWSAPIPlugin */; };
+		0A097A1F2892D80A00122083 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 0A097A1E2892D80A00122083 /* AWSCognitoAuthPlugin */; };
+		0A097A212892D80A00122083 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 0A097A202892D80A00122083 /* AWSDataStorePlugin */; };
+		0A097A232892D80A00122083 /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 0A097A222892D80A00122083 /* AWSS3StoragePlugin */; };
+		0A097A252892D80A00122083 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 0A097A242892D80A00122083 /* Amplify */; };
+		0A2C9DEC288FD4A600E279AF /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C9DEB288FD4A600E279AF /* NewTweetView.swift */; };
+		0A367DBA288FC4C6001FD9D7 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A367DB9288FC4C6001FD9D7 /* SideMenuOptionView.swift */; };
+		0A367DBC288FC4D3001FD9D7 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A367DBB288FC4D3001FD9D7 /* SideMenuView.swift */; };
+		0A367DBE288FC4E6001FD9D7 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A367DBD288FC4E6001FD9D7 /* SideMenuViewModel.swift */; };
+		0A367DC0288FC6D0001FD9D7 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A367DBF288FC6D0001FD9D7 /* UserStatsView.swift */; };
+		0A367DC2288FC958001FD9D7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A367DC1288FC958001FD9D7 /* HomeView.swift */; };
+		0A50B55C2893ED9F004E85F1 /* TweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50B55B2893ED9F004E85F1 /* TweetViewModel.swift */; };
+		0A50B55E2893FBAC004E85F1 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50B55D2893FBAC004E85F1 /* ExploreViewModel.swift */; };
+		0A50B5612894007C004E85F1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0A50B5602894007C004E85F1 /* Kingfisher */; };
+		0A80F6962893ADF9007F2C72 /* ConfirmCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80F6952893ADF9007F2C72 /* ConfirmCodeView.swift */; };
+		0A905B95288FB59A00E270CC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A905B94288FB59A00E270CC /* MainTabView.swift */; };
+		0A905B9B288FB6F400E270CC /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A905B9A288FB6F400E270CC /* ExploreView.swift */; };
+		0A905B9D288FB70A00E270CC /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A905B9C288FB70A00E270CC /* NotificationView.swift */; };
+		0A905B9F288FB72300E270CC /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A905B9E288FB72300E270CC /* MessagesView.swift */; };
+		0A905BA3288FB81000E270CC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A905BA2288FB81000E270CC /* ProfileView.swift */; };
+		0A905BA5288FBD9500E270CC /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A905BA4288FBD9500E270CC /* TweetFilterViewModel.swift */; };
+		0A905BA8288FC16100E270CC /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A905BA7288FC16100E270CC /* UserRowView.swift */; };
 		0AECCFC7288FAF53002F2847 /* MyTwitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECCFC6288FAF53002F2847 /* MyTwitterApp.swift */; };
-		0AECCFC9288FAF53002F2847 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECCFC8288FAF53002F2847 /* ContentView.swift */; };
 		0AECCFCB288FAF54002F2847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AECCFCA288FAF54002F2847 /* Assets.xcassets */; };
 		0AECCFCE288FAF54002F2847 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AECCFCD288FAF54002F2847 /* Preview Assets.xcassets */; };
+		0AECCFDD288FB00D002F2847 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECCFDC288FB00D002F2847 /* FeedView.swift */; };
+		0AECCFE0288FB0DD002F2847 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECCFDF288FB0DD002F2847 /* TweetView.swift */; };
+		269F00C631AD03F72A80AD1E /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50D862D9AF23E3E628A55C7 /* Users.swift */; };
+		433037C60DFA642532C9F699 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2ECF0FD9505A3B826FA41 /* AmplifyModels.swift */; };
+		51790637E6B6CC77C674979B /* Tweets+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C4AB56846A7918E15D9C1 /* Tweets+Schema.swift */; };
+		782301C5304622722E9A3016 /* Tweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47A886913C6B3A819EDD47 /* Tweets.swift */; };
+		7EE73294B5C133C74737DD50 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = FB29919F385F9DD6F1B7088C /* amplifyconfiguration.json */; };
+		8B0833A64F87D566FA6F5C7F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AFD07D5CF1A854602DD194B1 /* awsconfiguration.json */; };
+		8FAA5ACD9765D1465254E062 /* Users+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806461F823F69D38BA7512ED /* Users+Schema.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A097A0E2892425700122083 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0A097A102892426200122083 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		0A097A1228924BD000122083 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		0A097A1428924BDC00122083 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		0A097A1728924D7400122083 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		0A097A192892519D00122083 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		0A2C9DEB288FD4A600E279AF /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		0A367DB9288FC4C6001FD9D7 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		0A367DBB288FC4D3001FD9D7 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		0A367DBD288FC4E6001FD9D7 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		0A367DBF288FC6D0001FD9D7 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		0A367DC1288FC958001FD9D7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0A50B55B2893ED9F004E85F1 /* TweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewModel.swift; sourceTree = "<group>"; };
+		0A50B55D2893FBAC004E85F1 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		0A80F6952893ADF9007F2C72 /* ConfirmCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCodeView.swift; sourceTree = "<group>"; };
+		0A905B94288FB59A00E270CC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		0A905B9A288FB6F400E270CC /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		0A905B9C288FB70A00E270CC /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0A905B9E288FB72300E270CC /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		0A905BA2288FB81000E270CC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0A905BA4288FBD9500E270CC /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
+		0A905BA7288FC16100E270CC /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
 		0AECCFC3288FAF53002F2847 /* MyTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AECCFC6288FAF53002F2847 /* MyTwitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTwitterApp.swift; sourceTree = "<group>"; };
-		0AECCFC8288FAF53002F2847 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0AECCFCA288FAF54002F2847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AECCFCD288FAF54002F2847 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AECCFDC288FB00D002F2847 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		0AECCFDF288FB0DD002F2847 /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
+		3E47A886913C6B3A819EDD47 /* Tweets.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Tweets.swift; path = amplify/generated/models/Tweets.swift; sourceTree = "<group>"; };
+		806461F823F69D38BA7512ED /* Users+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Users+Schema.swift"; path = "amplify/generated/models/Users+Schema.swift"; sourceTree = "<group>"; };
+		8F5C4AB56846A7918E15D9C1 /* Tweets+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Tweets+Schema.swift"; path = "amplify/generated/models/Tweets+Schema.swift"; sourceTree = "<group>"; };
+		99A2ECF0FD9505A3B826FA41 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		AFD07D5CF1A854602DD194B1 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		B50D862D9AF23E3E628A55C7 /* Users.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Users.swift; path = amplify/generated/models/Users.swift; sourceTree = "<group>"; };
+		FB29919F385F9DD6F1B7088C /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +92,194 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A50B5612894007C004E85F1 /* Kingfisher in Frameworks */,
+				0A097A212892D80A00122083 /* AWSDataStorePlugin in Frameworks */,
+				0A097A252892D80A00122083 /* Amplify in Frameworks */,
+				0A097A1D2892D80A00122083 /* AWSAPIPlugin in Frameworks */,
+				0A097A1F2892D80A00122083 /* AWSCognitoAuthPlugin in Frameworks */,
+				0A097A232892D80A00122083 /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A097A0B2892423B00122083 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0A097A0C2892424300122083 /* ViewModel */,
+				0A097A0D2892424900122083 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0A097A0C2892424300122083 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A097A192892519D00122083 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A097A0D2892424900122083 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A097A0E2892425700122083 /* LoginView.swift */,
+				0A097A102892426200122083 /* SignUpView.swift */,
+				0A80F6952893ADF9007F2C72 /* ConfirmCodeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A097A1628924D6300122083 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0A097A1728924D7400122083 /* AuthHeaderView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0A2C9DE8288FD48100E279AF /* UploadTweet */ = {
+			isa = PBXGroup;
+			children = (
+				0A2C9DEA288FD49700E279AF /* Views */,
+				0A2C9DE9288FD49100E279AF /* ViewModel */,
+			);
+			path = UploadTweet;
+			sourceTree = "<group>";
+		};
+		0A2C9DE9288FD49100E279AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A50B55B2893ED9F004E85F1 /* TweetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A2C9DEA288FD49700E279AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A2C9DEB288FD4A600E279AF /* NewTweetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A367DB6288FC49B001FD9D7 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0A367DB7288FC4AA001FD9D7 /* ViewModel */,
+				0A367DB8288FC4B6001FD9D7 /* Views */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		0A367DB7288FC4AA001FD9D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A367DBD288FC4E6001FD9D7 /* SideMenuViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A367DB8288FC4B6001FD9D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A367DBB288FC4D3001FD9D7 /* SideMenuView.swift */,
+				0A367DB9288FC4C6001FD9D7 /* SideMenuOptionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A905B93288FB56800E270CC /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				0A905B94288FB59A00E270CC /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		0A905B96288FB6C700E270CC /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				0A905BAA288FC18000E270CC /* Views */,
+				0A905BA9288FC17700E270CC /* ViewModel */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		0A905B97288FB6CC00E270CC /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				0A905B9C288FB70A00E270CC /* NotificationView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		0A905B98288FB6D500E270CC /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				0A905B9E288FB72300E270CC /* MessagesView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		0A905B99288FB6DE00E270CC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0A905BA0288FB7F400E270CC /* ViewModel */,
+				0A905BA1288FB7FD00E270CC /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0A905BA0288FB7F400E270CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A905BA4288FBD9500E270CC /* TweetFilterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A905BA1288FB7FD00E270CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A905BA2288FB81000E270CC /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A905BA6288FC15000E270CC /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				0A905BA7288FC16100E270CC /* UserRowView.swift */,
+				0A367DBF288FC6D0001FD9D7 /* UserStatsView.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		0A905BA9288FC17700E270CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A50B55D2893FBAC004E85F1 /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A905BAA288FC18000E270CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A905B9A288FB6F400E270CC /* ExploreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0AECCFBA288FAF52002F2847 = {
 			isa = PBXGroup;
 			children = (
 				0AECCFC5288FAF53002F2847 /* MyTwitter */,
 				0AECCFC4288FAF53002F2847 /* Products */,
+				5BBBBA84DB74F0B55A21A5E6 /* AmplifyConfig */,
+				42DE149E7F61170C598E904B /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +295,14 @@
 			isa = PBXGroup;
 			children = (
 				0AECCFC6288FAF53002F2847 /* MyTwitterApp.swift */,
-				0AECCFC8288FAF53002F2847 /* ContentView.swift */,
+				0A367DC1288FC958001FD9D7 /* HomeView.swift */,
 				0AECCFCA288FAF54002F2847 /* Assets.xcassets */,
+				0AECCFD8288FAFAB002F2847 /* Service */,
+				0AECCFD6288FAF84002F2847 /* Extensions */,
+				0AECCFD4288FAF70002F2847 /* Model */,
+				0A367DB6288FC49B001FD9D7 /* SideMenu */,
+				0AECCFD7288FAFA2002F2847 /* Components */,
+				0AECCFD5288FAF7E002F2847 /* Core */,
 				0AECCFCC288FAF54002F2847 /* Preview Content */,
 			);
 			path = MyTwitter;
@@ -65,6 +314,107 @@
 				0AECCFCD288FAF54002F2847 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AECCFD4288FAF70002F2847 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AECCFD5288FAF7E002F2847 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0A905B93288FB56800E270CC /* MainTab */,
+				0A097A0B2892423B00122083 /* Authentication */,
+				0AECCFD9288FAFB5002F2847 /* Feed */,
+				0A2C9DE8288FD48100E279AF /* UploadTweet */,
+				0A905B96288FB6C700E270CC /* Explore */,
+				0A905B98288FB6D500E270CC /* Messages */,
+				0A905B97288FB6CC00E270CC /* Notifications */,
+				0A905B99288FB6DE00E270CC /* Profile */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0AECCFD6288FAF84002F2847 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0AECCFD7288FAFA2002F2847 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0A097A1628924D6300122083 /* Authentication */,
+				0A905BA6288FC15000E270CC /* Users */,
+				0AECCFDE288FB0B1002F2847 /* Tweets */,
+				0A097A1228924BD000122083 /* CustomTextField.swift */,
+				0A097A1428924BDC00122083 /* RoundedShape.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0AECCFD8288FAFAB002F2847 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0AECCFD9288FAFB5002F2847 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				0AECCFDA288FAFE8002F2847 /* ViewModel */,
+				0AECCFDB288FAFF3002F2847 /* Views */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		0AECCFDA288FAFE8002F2847 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0AECCFDB288FAFF3002F2847 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AECCFDC288FB00D002F2847 /* FeedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0AECCFDE288FB0B1002F2847 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				0AECCFDF288FB0DD002F2847 /* TweetView.swift */,
+			);
+			path = Tweets;
+			sourceTree = "<group>";
+		};
+		42DE149E7F61170C598E904B /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				99A2ECF0FD9505A3B826FA41 /* AmplifyModels.swift */,
+				806461F823F69D38BA7512ED /* Users+Schema.swift */,
+				B50D862D9AF23E3E628A55C7 /* Users.swift */,
+				8F5C4AB56846A7918E15D9C1 /* Tweets+Schema.swift */,
+				3E47A886913C6B3A819EDD47 /* Tweets.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		5BBBBA84DB74F0B55A21A5E6 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				AFD07D5CF1A854602DD194B1 /* awsconfiguration.json */,
+				FB29919F385F9DD6F1B7088C /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +433,14 @@
 			dependencies = (
 			);
 			name = MyTwitter;
+			packageProductDependencies = (
+				0A097A1C2892D80A00122083 /* AWSAPIPlugin */,
+				0A097A1E2892D80A00122083 /* AWSCognitoAuthPlugin */,
+				0A097A202892D80A00122083 /* AWSDataStorePlugin */,
+				0A097A222892D80A00122083 /* AWSS3StoragePlugin */,
+				0A097A242892D80A00122083 /* Amplify */,
+				0A50B5602894007C004E85F1 /* Kingfisher */,
+			);
 			productName = MyTwitter;
 			productReference = 0AECCFC3288FAF53002F2847 /* MyTwitter.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +469,10 @@
 				Base,
 			);
 			mainGroup = 0AECCFBA288FAF52002F2847;
+			packageReferences = (
+				0A097A1B2892D80A00122083 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+				0A50B55F2894007C004E85F1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 0AECCFC4288FAF53002F2847 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +489,8 @@
 			files = (
 				0AECCFCE288FAF54002F2847 /* Preview Assets.xcassets in Resources */,
 				0AECCFCB288FAF54002F2847 /* Assets.xcassets in Resources */,
+				8B0833A64F87D566FA6F5C7F /* awsconfiguration.json in Resources */,
+				7EE73294B5C133C74737DD50 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +501,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AECCFC9288FAF53002F2847 /* ContentView.swift in Sources */,
+				0A905BA3288FB81000E270CC /* ProfileView.swift in Sources */,
+				0A50B55C2893ED9F004E85F1 /* TweetViewModel.swift in Sources */,
+				0A905B9F288FB72300E270CC /* MessagesView.swift in Sources */,
+				0A905B95288FB59A00E270CC /* MainTabView.swift in Sources */,
+				0A367DC2288FC958001FD9D7 /* HomeView.swift in Sources */,
+				0A367DBA288FC4C6001FD9D7 /* SideMenuOptionView.swift in Sources */,
+				0A50B55E2893FBAC004E85F1 /* ExploreViewModel.swift in Sources */,
+				0A097A1328924BD000122083 /* CustomTextField.swift in Sources */,
+				0A905B9D288FB70A00E270CC /* NotificationView.swift in Sources */,
+				0AECCFDD288FB00D002F2847 /* FeedView.swift in Sources */,
+				0A80F6962893ADF9007F2C72 /* ConfirmCodeView.swift in Sources */,
+				0A367DBC288FC4D3001FD9D7 /* SideMenuView.swift in Sources */,
+				0A367DC0288FC6D0001FD9D7 /* UserStatsView.swift in Sources */,
+				0AECCFE0288FB0DD002F2847 /* TweetView.swift in Sources */,
+				0A097A0F2892425700122083 /* LoginView.swift in Sources */,
+				0A367DBE288FC4E6001FD9D7 /* SideMenuViewModel.swift in Sources */,
+				0A097A1828924D7400122083 /* AuthHeaderView.swift in Sources */,
+				0A2C9DEC288FD4A600E279AF /* NewTweetView.swift in Sources */,
+				0A905BA5288FBD9500E270CC /* TweetFilterViewModel.swift in Sources */,
+				0A097A1528924BDC00122083 /* RoundedShape.swift in Sources */,
+				0A905BA8288FC16100E270CC /* UserRowView.swift in Sources */,
+				0A097A1A2892519D00122083 /* AuthViewModel.swift in Sources */,
+				0A905B9B288FB6F400E270CC /* ExploreView.swift in Sources */,
+				0A097A112892426200122083 /* SignUpView.swift in Sources */,
 				0AECCFC7288FAF53002F2847 /* MyTwitterApp.swift in Sources */,
+				433037C60DFA642532C9F699 /* AmplifyModels.swift in Sources */,
+				8FAA5ACD9765D1465254E062 /* Users+Schema.swift in Sources */,
+				269F00C631AD03F72A80AD1E /* Users.swift in Sources */,
+				51790637E6B6CC77C674979B /* Tweets+Schema.swift in Sources */,
+				782301C5304622722E9A3016 /* Tweets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +665,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +694,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +731,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A097A1B2892D80A00122083 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		0A50B55F2894007C004E85F1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A097A1C2892D80A00122083 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A097A1B2892D80A00122083 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		0A097A1E2892D80A00122083 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A097A1B2892D80A00122083 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		0A097A202892D80A00122083 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A097A1B2892D80A00122083 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		0A097A222892D80A00122083 /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A097A1B2892D80A00122083 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSS3StoragePlugin;
+		};
+		0A097A242892D80A00122083 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A097A1B2892D80A00122083 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+		0A50B5602894007C004E85F1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A50B55F2894007C004E85F1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0AECCFBB288FAF52002F2847 /* Project object */;
 }
